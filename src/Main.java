@@ -2,13 +2,13 @@ import java.util.Scanner;
 
 class Main {
     public static void main(String[] args) {
-        int a = 0;
-        may(a);
-        may(a);
-        may(a);
+        //int a = 0;
+        may();
+        may();
+        may();
     }
 
-    public static void may(int a) {
+    public static void may() {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt(), reversed = 0;
         if (num>999 || num<-999) {
