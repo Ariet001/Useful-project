@@ -1,13 +1,11 @@
 import java.util.Scanner;
 
-class Main {
+public class Main {
     public static void main(String[] args) {
-        //int a = 0;
         may();
         may();
         may();
     }
-
     public static void may() {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt(), reversed = 0;
@@ -23,7 +21,3 @@ class Main {
         }
     }
 }
-
-
-
-
